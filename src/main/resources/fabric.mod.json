@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "more_metals",
+  "version": "${version}",
+
+  "name": "More Metals",
+  "description": "",
+  "authors": [
+    "LordDeatHunter",
+    "ArlenGaming"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/ArlenGaming/More-Metals"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "more_metals.MoreMetals"
+    ]
+  },
+  "mixins": [
+    "more_metals.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+
+}
